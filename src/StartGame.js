@@ -66,6 +66,26 @@ const Container = styled.div`
     border: 1px solid black;
     transition: 0.3s background ease-in;
   }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+
+    .leftDiv, .rightDiv {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: large;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: medium;
+    }
+  }
   
 `;
 

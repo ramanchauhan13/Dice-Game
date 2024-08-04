@@ -10,7 +10,6 @@ function DiceGame() {
 
   const toggleGamePlay = ()=>{
   setIsGameStarted((prev)=>!prev);
-  
   }
 
   return (
